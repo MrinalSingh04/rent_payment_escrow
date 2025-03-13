@@ -1,49 +1,46 @@
-```
-# Decentralized Rent Payment Escrow - Smart Contract
-
+# Decentralized Rent Payment Escrow Smart Contract
 
 ## **Introduction**
-The **Decentralized Rent Payment Escrow Smart Contract** is designed to ensure secure, automated, and dispute-free rent transactions between landlords and tenants. This smart contract enforces timely monthly payments, manages security deposits, and provides a robust dispute resolution mechanism.
+
+This **Decentralized Rent Payment Escrow Smart Contract** ensures timely monthly payments, handles security deposits, and provides a dispute resolution mechanism.
 
 ## **Problem Statement**
-Traditional rent payments often involve various challenges:
-- **Manual Transactions:** Tenants need to remember due dates and manually transfer rent every month.
-- **Late Payments & Disputes:** Unpaid rent causes conflicts and disputes between tenants and landlords.
-- **Security Deposit Issues:** Landlords may withhold deposits unfairly, leading to tenant dissatisfaction.
-- **Legal Complexities:** Resolving disputes often requires lengthy and costly legal actions.
 
-## **Solution: Decentralized Rent Escrow**
-Our smart contract addresses these issues by providing:
-- ✅ **Automated Rent Payments** – Ensuring landlords receive timely payments.
-- ✅ **Security Deposit Management** – Holding deposits securely until lease termination.
-- ✅ **Late Payment Penalties** – Enforcing financial discipline for delayed payments.
-- ✅ **Dispute Resolution System** – Enabling a trustless mechanism for conflict resolution.
-- ✅ **Lease Completion Security** – Ensuring funds are released only when the lease ends as per terms.
+Traditional rent payments often involve:
+
+- **Manual Transactions:** Tenants need to remember payment dates and manually transfer rent every month.
+- **Late Payments & Penalties:** Unpaid rent creates conflicts between tenants and landlords.
+- **Security Deposit Issues:** Landlords may withhold security deposits unfairly.
+- **Dispute Complexity:** Resolving rent-related disputes often requires expensive legal actions.
+
+## **Solution Overview**
+
+This smart contract provides:
+✅ **Automated Rent Payments** – Ensuring landlords get paid on time.
+✅ **Handling Security Deposits** – Holding deposits until the end of the lease.
+✅ **Enforcing Late Payment Penalties** – Automatically deducting late fees.
+✅ **Dispute Resolution System** – Freezing funds in case of disputes.
+✅ **Ensuring Lease Completion Security** – Holding deposits until lease completion.
 
 ## **How It Works**
-1️⃣ **Landlord Deploys Contract** – Defines the tenant, rent amount, security deposit, and lease duration.
-2️⃣ **Tenant Deposits Security** – The tenant deposits the security deposit into the contract.
-3️⃣ **Automated Monthly Payments** – The tenant sends rent monthly, which is automatically transferred to the landlord every **30 days**.
-4️⃣ **Late Payment Penalty** – If the rent is late, the contract deducts a penalty.
-5️⃣ **Dispute Management** – Either party can raise a dispute, temporarily freezing payments.
-6️⃣ **Lease Completion & Refunds** – If no disputes exist at the end of the lease, the security deposit is refunded to the tenant.
+
+1️⃣ **Landlord Deploys Contract** – Sets the **tenant address, rent, deposit amount, and lease duration.**
+2️⃣ **Tenant Deposits Security** – The tenant deposits the agreed security deposit into the contract.
+3️⃣ **Monthly Automated Payments** – The tenant pays rent every month using the `payRent` function.
+4️⃣ **Late Payment Penalties** – A late fee is deducted for missing a rent payment.
+5️⃣ **Dispute Handling** – Either party can raise a dispute to pause payments.
+6️⃣ **Security Deposit Refund** – If no dispute arises, the deposit is returned at lease end.
 
 ## **Smart Contract Features**
-- 🔹 **Automated Rent Payments:** Rent is transferred to the landlord on time.
-- 🔹 **Security Deposit Management:** Ensures safe handling and fair refund policies.
-- 🔹 **Dispute Resolution Mechanism:** Allows pausing payments if a dispute arises.
-- 🔹 **Late Payment Penalties:** Discourages late payments by applying penalties.
-- 🔹 **Flexible Payment Options:** Supports ETH and stablecoins (USDC, USDT, etc.).
 
-## **Future Enhancements**
-- 🌍 **Multi-Tenant Support** – Extend the contract to allow multiple tenants in shared housing.
-- 🔄 **Automated Lease Renewals** – Let tenants automatically extend leases.
-- 🔑 **Decentralized Dispute Resolution** – Implement a DAO-like system for fair conflict resolution.
-- 📜 **Smart Contract-Based Lease Agreements** – Store legally binding rental agreements on-chain for transparency.
+- **Automated Rent Payments:** Transfers rent to the landlord every 30 days.
+- **Security Deposit Handling:** Funds held in escrow and refunded upon lease completion.
+- **Dispute Resolution:** Allows landlords and tenants to lock funds if a dispute occurs.
+- **Late Payment Penalties:** Deductions apply for delayed payments.
+- **Supports ETH & ERC-20 Tokens:** Payments in stablecoins like **USDC, USDT, or native ETH**.
 
 ---
-## **License**
-MIT License
 
-Ths smart contract simplifies the rental process, ensuring fairness,
-```
+**License:** MIT License
+
+This smart contract simplifies the rental process while ensuring fairness and automation. Let me know if you need any modifications or extra features! 🚀
