@@ -16,6 +16,7 @@ Traditional rent payments often involve:
 ## **Solution Overview**
 
 This smart contract provides:
+
 ✅ **Automated Rent Payments** – Ensuring landlords get paid on time.
 
 ✅ **Handling Security Deposits** – Holding deposits until the end of the lease.
