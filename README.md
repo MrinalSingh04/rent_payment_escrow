@@ -17,19 +17,29 @@ Traditional rent payments often involve:
 
 This smart contract provides:
 ✅ **Automated Rent Payments** – Ensuring landlords get paid on time.
+
 ✅ **Handling Security Deposits** – Holding deposits until the end of the lease.
+
 ✅ **Enforcing Late Payment Penalties** – Automatically deducting late fees.
+
 ✅ **Dispute Resolution System** – Freezing funds in case of disputes.
+
 ✅ **Ensuring Lease Completion Security** – Holding deposits until lease completion.
 
 ## **How It Works**
 
 1️⃣ **Landlord Deploys Contract** – Sets the **tenant address, rent, deposit amount, and lease duration.**
+
 2️⃣ **Tenant Deposits Security** – The tenant deposits the agreed security deposit into the contract.
+
 3️⃣ **Monthly Automated Payments** – The tenant pays rent every month using the `payRent` function.
+
 4️⃣ **Late Payment Penalties** – A late fee is deducted for missing a rent payment.
+
 5️⃣ **Dispute Handling** – Either party can raise a dispute to pause payments.
+
 6️⃣ **Security Deposit Refund** – If no dispute arises, the deposit is returned at lease end.
+
 
 ## **Smart Contract Features**
 
